@@ -176,3 +176,7 @@ uv.lock
 
 # Vendor submodules (tracked separately)
 vendor/*/
+/task2
+/Data/Arabic
+/Data/English
+/Data/spanish
