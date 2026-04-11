@@ -1,0 +1,2 @@
+Approach,recall_at_k,mrr_at_k,macro_f1,avg_score
+Baseline Logistic Regression,0.29982704101454094,0.5913622453934955,0.4752733731839694,0.38755020709925514
