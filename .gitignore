@@ -1,8 +1,29 @@
-# Ignore everything
+# Ignore everything by default
 *
-
-# Whitelist your specific folder (keep trailing slash)
+ 
+# Un-ignore directories so git will traverse into them
+# (needed before whitelisting files inside a subfolder)
+!*/
+ 
+# Whitelist root-level files
 !README.md
-
-# Whitelist the .gitignore file so it isn't ignored
+!requirements.txt
 !.gitignore
+ 
+# Whitelist project folders and their contents
+!docs/
+!docs/paper_333.pdf
+ 
+!data_prep/
+!data_prep/build_reasoning_traces.py
+ 
+!notebooks/
+!notebooks/approach1_english_qwen.ipynb
+!notebooks/approach1_arabic_arabert.ipynb
+!notebooks/approach2_tfidf_reward_model.ipynb
+ 
+# Still keep secrets/env files out even if a rule above is broad
+.env
+*.ipynb_checkpoints/
+__pycache__/
+ 
