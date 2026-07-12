@@ -12,7 +12,7 @@
  
 # Whitelist project folders and their contents
 !docs/
-!docs/paper_333.pdf
+!docs/paper.pdf
  
 !data_prep/
 !data_prep/build_reasoning_traces.py

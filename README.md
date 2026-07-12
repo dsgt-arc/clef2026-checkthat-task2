@@ -59,14 +59,13 @@ A lightweight, interpretable alternative to a fine-tuned neural re-ranker:
 .
 ├── README.md
 ├── docs/
-│   └── paper_333.pdf                     # CLEF 2026 Working Notes paper
+│   └── paper.pdf                     # CLEF 2026 Working Notes paper
 ├── data_prep/
 │   └── build_reasoning_traces.py         # builds trace-level training data for the LLM verifier (Approach I)
 ├── notebooks/
 │   ├── approach1_english_qwen.ipynb      # Approach I, English (Qwen2.5-Math-7B, LoRA)
 │   ├── approach1_arabic_arabert.ipynb    # Approach I, Arabic (AraBERT, LoRA)
 │   └── approach2_tfidf_reward_model.ipynb # Approach II, TF-IDF grouped reward model
-└── requirements.txt
 ```
 
 ## Setup
